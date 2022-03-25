@@ -12,6 +12,8 @@ Tag format: `os-version`
 
 See `build.sh` for available versions.
 
+`gcc` is installed with `build-essential`. CMake is `v3.22.3`.
+
 ## Build
 
 Just run `build.sh`.
