@@ -45,3 +45,6 @@ do
     docker build --no-cache -t ilharp/gcc-cmake:${os}-${version} -f dockerfiles/Dockerfile-${os}-${version} nul
   done
 done
+
+echo "Build complete. Now pushing images."
+docker push -a ilharp/gcc-cmake
